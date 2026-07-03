@@ -633,7 +633,7 @@ Example: ABCD with a right angle at B, AB = 6, BC = 8. Diagonal AC = 10 by Pytha
           "Sine rule: sin B / b = sin A / a, so sin B = 10 sin 38° / 7 = 10 × 0.61566/7 ≈ 0.8795. B = sin⁻¹(0.8795) ≈ 61.6°.",
         markScheme: ["61.6", "sine rule", "0.8795", "sin B"],
         commonError:
-          "Forgetting the final inverse-sine step and giving 0.88 as the 'angle', or rounding sin B too early (0.88 gives 61.7° — keep full accuracy until the end).",
+          "Forgetting the final inverse-sine step and giving 0.88 as the 'angle', or rounding sin B too early (rounding to 0.9 gives 64.2° — keep full accuracy until the end).",
         guideRef: "Sine rule, cosine rule and the area formula",
         difficulty: "core",
         hints: [
@@ -953,7 +953,7 @@ Example: ABCD with a right angle at B, AB = 6, BC = 8. Diagonal AC = 10 by Pytha
             options: ["3/4", "1", "(√2 + 1)/2", "1/2"],
             answerIndex: 1,
             explanation:
-              "sin 45° × cos 45° = (1/√2) × (1/√2) = 1/2, and sin 30° = 1/2, so the total is 1/2 + 1/2 = 1. 3/4 misjudges the product; (√2 + 1)/2 ADDS sin 45° and cos 45° instead of multiplying; 1/2 drops one term.",
+              "sin 45° × cos 45° = (1/√2) × (1/√2) = 1/2, and sin 30° = 1/2, so the total is 1/2 + 1/2 = 1. 3/4 misjudges the product; (√2 + 1)/2 drops the cos 45° factor, computing sin 45° + sin 30° = √2/2 + 1/2; 1/2 drops one term.",
             guideRef: "Exact trig values",
             difficulty: "challenge",
             hints: [

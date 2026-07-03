@@ -530,7 +530,7 @@ Example: an open-top box with a square base of side x cm must have volume 256 cm
         options: ["2", "−2", "10", "−6"],
         answerIndex: 0,
         explanation:
-          "dy/dx = 2x − 6. At x = 4 the gradient is 2(4) − 6 = 2. The answer −6 substitutes into the wrong place (or reads off the coefficient); −2 is 6 − 2(4) sign-flipped; 10 forgets the −6.",
+          "dy/dx = 2x − 6. At x = 4 the gradient is 2(4) − 6 = 2. The answer −6 substitutes into the wrong place (or reads off the coefficient); −2 is 6 − 2(4) sign-flipped; 10 comes from mis-differentiating the constant to get 2x + 2, giving 2(4) + 2.",
         guideRef: "Discovering the derivative",
         difficulty: "core",
         hints: [

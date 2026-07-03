@@ -215,8 +215,8 @@ Example: a = 5.4 and b = 2.1, both to 1 d.p. The greatest possible a/b is 5.45/2
 **Suitable degree of accuracy**: compute the upper AND lower bound of the result; the answer "to an appropriate accuracy" is the most precise rounding at which both bounds agree. If UB = 21.33 and LB = 20.59, both round to 21 (2 s.f.), so quote 21.`,
       discovery: {
         problem:
-          "A shelf bracket needs a gap of exactly 2.40 m. A joiner cuts two planks, each measuring 1.20 m to the nearest centimetre, and lays them end to end. Is it possible the pair is more than 1 cm too long?",
-        idea: "Each plank can be as long as 1.205 m, so together they can reach 2.41 m — a full centimetre over. Rounded measurements carry hidden uncertainty, and uncertainties ADD UP when you combine measurements. Bounds make that hidden risk exact.",
+          "A shelf bracket needs a gap of exactly 2.40 m. A joiner cuts two planks, each measuring 1.20 m to the nearest centimetre, and lays them end to end. Is it possible the pair is almost a full centimetre too long?",
+        idea: "Each plank can be anything up to 1.205 m, so together the pair can be anything up to 2.41 m — almost a full centimetre over. Rounded measurements carry hidden uncertainty, and uncertainties ADD UP when you combine measurements. Bounds make that hidden risk exact.",
       },
       whyItWorks: `Why does division use opposite bounds? A fraction grows when its numerator grows OR its denominator shrinks — so the biggest possible quotient takes the numerator's upper bound with the denominator's lower bound. Subtraction is the same story: a − b is largest when a is large and b is small. The reliable habit is not to memorise the table but to ask of each input: does increasing this push my answer up or down?`,
       strategies: [
@@ -795,7 +795,7 @@ Example: a = 5.4 and b = 2.1, both to 1 d.p. The greatest possible a/b is 5.45/2
           {
             id: "num-mcq-p2-q05",
             question:
-              "By rounding each value to 1 significant figure, estimate √48.6 × 3.9².",
+              "By rounding each value to a nearby easy number, estimate √48.6 × 3.9².",
             options: ["28", "56", "112", "196"],
             answerIndex: 2,
             explanation:
@@ -807,7 +807,7 @@ Example: a = 5.4 and b = 2.1, both to 1 d.p. The greatest possible a/b is 5.45/2
               "√49 = 7 and 3.9 rounds to 4.",
               "Remember to square the 4 before multiplying.",
             ],
-            strategy: "Round to 1 s.f. first",
+            strategy: "Round to easy numbers first",
           },
           {
             id: "num-mcq-p2-q06",

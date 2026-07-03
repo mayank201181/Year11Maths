@@ -686,7 +686,7 @@ const topic: Topic = {
             options: ["(−4, 8)", "(8, 8)", "(−4, 12)", "(4, 8)"],
             answerIndex: 0,
             explanation:
-              "2a = (2, 8) and 3b = (−6, 0), so 2a + 3b = (2 − 6, 8 + 0) = (−4, 8). (8, 8) drops the minus sign in b; (−4, 12) multiplies a by 3 instead of 2.",
+              "2a = (2, 8) and 3b = (−6, 0), so 2a + 3b = (2 − 6, 8 + 0) = (−4, 8). (8, 8) drops the minus sign in b; (−4, 12) comes from tripling a's second component (3 × 4 = 12) instead of doubling it.",
             guideRef: "Adding, subtracting and scalar multiples",
             difficulty: "core",
             hints: [

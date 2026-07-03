@@ -94,7 +94,7 @@ const topic: Topic = {
         problem:
           "Two banks compete for your £1000. Bank Linear pays a flat £60 every year (6% simple). Bank Snowball pays 5% compound — less per cent, and a smaller payout in year one. Your friend says Linear obviously wins forever, since 6 beats 5 every single year. Will Snowball ever catch up?",
         idea:
-          "Yes — inevitably. Linear adds the SAME £60 each year; Snowball's payment grows every year because it earns interest on past interest. Trial shows Snowball's balance (1000 × 1.05^n) passes Linear's (1000 + 60n) between years 15 and 16: at n = 15, £2078.93 vs £1900. Any compound growth eventually overtakes any straight line — exponential beats linear in the long run, always.",
+          "Yes — inevitably. Linear adds the SAME £60 each year; Snowball's payment grows every year because it earns interest on past interest. Trial shows Snowball's balance (1000 × 1.05^n) passes Linear's (1000 + 60n) between years 8 and 9: at n = 8 it still trails (£1477.46 vs £1480), but at n = 9 it leads (£1551.33 vs £1540) — and the gap only widens (by n = 15 it is £2078.93 vs £1900). Any compound growth eventually overtakes any straight line — exponential beats linear in the long run, always.",
       },
       whyItWorks:
         "Where does P(1 + r/100)^n come from? Each year is one application of the same multiplier m = 1 + r/100. After one year: Pm. After two: (Pm)m = Pm². After n years the multiplier has been applied n times: Pm^n. The formula is nothing more than 'repeated percentage change written with an index' — the same reason chained sale-and-rise problems multiplied their multipliers.",

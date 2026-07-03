@@ -400,7 +400,7 @@ const topic: Topic = {
         options: ["2500", "2450", "5000", "2550"],
         answerIndex: 0,
         explanation:
-          "99 = 2 × 50 − 1 is the 50th odd number, and the sum of the first n odd numbers is n², so the total is 50² = 2500. You can confirm with Sn: 50/2 × (1 + 99) = 25 × 100 = 2500. The distractor 5000 counts 100 terms instead of 50; 2450 uses 49².",
+          "99 = 2 × 50 − 1 is the 50th odd number, and the sum of the first n odd numbers is n², so the total is 50² = 2500. You can confirm with Sn: 50/2 × (1 + 99) = 25 × 100 = 2500. The distractor 5000 counts 100 terms instead of 50; 2450 is 49 × 50, a pairing slip.",
         guideRef: "Sequences in disguise",
         difficulty: "challenge",
         hints: [
@@ -651,7 +651,7 @@ const topic: Topic = {
             options: ["345", "350", "330", "690"],
             answerIndex: 0,
             explanation:
-              "a = 2, d = 3, n = 15: S15 = 15/2 × (4 + 14 × 3) = 7.5 × 46 = 345. The distractor 690 forgets to halve n; 330 uses 15 × 3 instead of 14 × 3 then mis-corrects.",
+              "a = 2, d = 3, n = 15: S15 = 15/2 × (4 + 14 × 3) = 7.5 × 46 = 345. The distractor 690 forgets to halve n; 330 comes from Sn = n/2 (a + l) with the last term wrongly taken as 14 × 3 = 42 instead of 2 + 42 = 44.",
             guideRef: "Adding it all up: the story of young Gauss",
             difficulty: "core",
             hints: [

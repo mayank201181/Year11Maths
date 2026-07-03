@@ -725,7 +725,7 @@ const topic: Topic = {
             options: ["120 m", "84 m", "48 m", "72 m"],
             answerIndex: 1,
             explanation:
-              "Distance is the area under a speed-time graph — here a trapezium: (1/2)(4 + 10)(12) = 84 m. 120 m uses the top speed for the whole time; 48 m uses only the starting speed; 72 m uses only the halfway rectangle at 6 m/s... in fact 72 comes from (1/2)(12)(12), muddling the parallel sides.",
+              "Distance is the area under a speed-time graph — here a trapezium: (1/2)(4 + 10)(12) = 84 m. 120 m uses the top speed for the whole time; 48 m uses only the starting speed; 72 m comes from (1/2)(12)(12), muddling one of the parallel sides with the width.",
             guideRef: "Real-life graphs: journeys and conversions",
             difficulty: "challenge",
             hints: [
